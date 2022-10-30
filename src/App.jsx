@@ -50,7 +50,7 @@ function App() {
     value: city.code,
     label: city.name_ptbr,
   }));
-  
+
   const [selectedCities, setSelectedCities] = useState([]);
 
   const handleCountriesChange = (e) => {
@@ -169,7 +169,7 @@ function App() {
                 />
               </div>
               <span className="error-message">{errors.coutries?.message}</span>
-              {selectedCountries.length > 0 && cityOptions.length > 0 ? (
+              {selectedCountries.length > 0 && cityOptions.length >= 2 ? (
                 <div className="select-wrapper-container">
                   <Select
                     className="cities-select"
