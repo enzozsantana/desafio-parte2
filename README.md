@@ -1,4 +1,4 @@
-<h1 align="center">Interface para marcar destinos de interesse</h1>
+<h1 align="center">Interface para marcar destinos de interesse :earth_americas: :airplane:</h1>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/89364741/198857574-b785ff05-f575-4b0e-93db-3bd91fa701a0.png" height="425px" />
@@ -19,7 +19,7 @@
 * As cidades foram buscadas na API (🔗 https://amazon-api.sellead.com/city), porém elas foram populadas condicionadas aos países selecionados.
 * Foram aplicadas validações, em todos os campos, e máscaras, nos campos Telefone e CPF.
 * Quando o formulário é submetido com sucesso, o usuário recebe um retorno visual do mesmo.
-* Design responsivo (mobile first).
+* Design responsivo (:iphone: mobile first).
 
 ## :hammer_and_wrench: Ferramentas
 * ReactJS
@@ -30,7 +30,7 @@
 
 ## :computer: Deploy
 * O deploy desse projeto foi feito na plataforma Vercel. Para usar a aplicação, basta clicar no link: 🔗 https://formulario-validacao.vercel.app/
-* Pasta build zipada: [build.zip](https://github.com/enzozsantana/formulario-validacao/files/9896952/build.zip)
+* Pasta build zipada: :file_folder: [build.zip](https://github.com/enzozsantana/formulario-validacao/files/9896952/build.zip)
 
 ## Available Scripts
 
