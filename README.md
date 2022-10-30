@@ -1,4 +1,4 @@
-# Formulário com validação
+<h1 align="center">Interface para marcar destinos de interess</h1>
 
 ![formulario-validacao-1](https://user-images.githubusercontent.com/89364741/198857574-b785ff05-f575-4b0e-93db-3bd91fa701a0.png)
 ![formulario-validacao-2](https://user-images.githubusercontent.com/89364741/198857575-a253c9bf-e92c-417f-8b90-a474ffdced9e.png)
@@ -7,10 +7,26 @@
 ![formulario-validacao-5](https://user-images.githubusercontent.com/89364741/198857578-efcdc0cc-df2b-48a0-ad57-6592d442d419.png)
 ![formulario-validacao-6](https://user-images.githubusercontent.com/89364741/198857702-3afcba48-e37f-4a0a-9a17-9355a89e198a.png)
 
+## :page_facing_up: Descrição
+<p>Interface web, feita em React, para marcar destinos de interesse.</p>
+<p>Estão presentes os seguintes campos: Nome, Email, Telefone, CPF, País e Cidade (todos obrigatórios).</p>
 
-# Getting Started with Create React App
+* Os campos de País e Cidade permitem a seleção de múltiplas opções.
+* Para popular o select de países, os mesmos foram buscados na API (🔗 https://amazon-api.sellead.com/country).
+* As cidades foram buscadas na API (🔗 https://amazon-api.sellead.com/city), porém elas foram populadas condicionadas aos países selecionados.
+* Foram aplicadas validações, em todos os campos, e máscaras, nos campos Telefone e CPF.
+* Quando o formulário é submetido com sucesso, o usuário recebe um retorno visual do mesmo.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :hammer_and_wrench: Ferramentas
+* ReactJS
+* React Hook Form
+* React Select
+* React Toastify
+* Yup
+
+## :computer: Deploy
+* O deploy desse projeto foi feito na plataforma Vercel. Para usar a aplicação, basta clicar no link: 🔗 https://formulario-validacao.vercel.app/
+* Pasta build zipada: [build.zip](https://github.com/enzozsantana/formulario-validacao/files/9896952/build.zip)
 
 ## Available Scripts
 
@@ -48,33 +64,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
