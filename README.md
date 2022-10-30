@@ -1,4 +1,4 @@
-<h1 align="center">Interface para marcar destinos de interess</h1>
+<h1 align="center">Interface para marcar destinos de interesse</h1>
 
 ![formulario-validacao-1](https://user-images.githubusercontent.com/89364741/198857574-b785ff05-f575-4b0e-93db-3bd91fa701a0.png)
 ![formulario-validacao-2](https://user-images.githubusercontent.com/89364741/198857575-a253c9bf-e92c-417f-8b90-a474ffdced9e.png)
