@@ -1,11 +1,14 @@
 <h1 align="center">Interface para marcar destinos de interesse</h1>
 
-![formulario-validacao-1](https://user-images.githubusercontent.com/89364741/198857574-b785ff05-f575-4b0e-93db-3bd91fa701a0.png)
-![formulario-validacao-2](https://user-images.githubusercontent.com/89364741/198857575-a253c9bf-e92c-417f-8b90-a474ffdced9e.png)
-![formulario-validacao-3](https://user-images.githubusercontent.com/89364741/198857576-5f75eb45-c3ea-452b-ae64-d3d3edff5f25.png)
-![formulario-validacao-4](https://user-images.githubusercontent.com/89364741/198857577-6da72d7b-8573-4cd0-8425-aa2c2b8d7108.png)
-![formulario-validacao-5](https://user-images.githubusercontent.com/89364741/198857578-efcdc0cc-df2b-48a0-ad57-6592d442d419.png)
-![formulario-validacao-6](https://user-images.githubusercontent.com/89364741/198857702-3afcba48-e37f-4a0a-9a17-9355a89e198a.png)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/89364741/198857574-b785ff05-f575-4b0e-93db-3bd91fa701a0.png" />
+  <img src="https://user-images.githubusercontent.com/89364741/198857575-a253c9bf-e92c-417f-8b90-a474ffdced9e.png" width="500px" />
+  <img src="https://user-images.githubusercontent.com/89364741/198857576-5f75eb45-c3ea-452b-ae64-d3d3edff5f25.png" width="878px" />
+  <img src="https://user-images.githubusercontent.com/89364741/198857577-6da72d7b-8573-4cd0-8425-aa2c2b8d7108.png" width="878px" />
+  <img src="https://user-images.githubusercontent.com/89364741/198857578-efcdc0cc-df2b-48a0-ad57-6592d442d419.png" width="878px" />
+  <img src="https://user-images.githubusercontent.com/89364741/198857702-3afcba48-e37f-4a0a-9a17-9355a89e198a.png" width="878px" />
+</div>
+
 
 ## :page_facing_up: Descrição
 <p>Interface web, feita em React, para marcar destinos de interesse.</p>
