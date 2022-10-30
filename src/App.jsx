@@ -50,7 +50,7 @@ function App() {
     value: city.code,
     label: city.name_ptbr,
   }));
-  
+
   const [selectedCities, setSelectedCities] = useState([]);
 
   const handleCountriesChange = (e) => {
